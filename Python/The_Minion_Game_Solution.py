@@ -1,11 +1,10 @@
 def minion_game(s):
-    v="AEIOUaeiou"
-    vowels = 'AEIOU'
+    v = 'AEIOU'
 
     kev = 0
     stu = 0
     for i in range(len(s)):
-        if s[i] in vowels:
+        if s[i] in v:
             kev += (len(s)-i)
         else:
             stu += (len(s)-i)
@@ -16,6 +15,7 @@ def minion_game(s):
         print("Stuart", stu)
     else:
         print("Draw")
+
 
 
 if __name__ == '__main__':
