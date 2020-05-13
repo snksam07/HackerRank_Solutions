@@ -1,4 +1,4 @@
-The Minion Game
+## The Minion Game
 
 Kevin and Stuart want to play the 'The Minion Game'.
 Game Rules
@@ -14,9 +14,11 @@ String  = BANANA
 Kevin's vowel beginning word = ANA
 Here, ANA occurs twice in BANANA. Hence, Kevin will get 2 Points.
 Note: The string S will contain only uppercase letters.
+For better understanding, see the image below:
+ ![Image of Question](https://github.com/snksam07/HackerRank_Solutions/blob/master/Capture1.png)
 Your task is to determine the winner of the game and their score.
 Input Format
-A single line of input containing the string S.
+A single line of input containing the string .S
 Output Format
 Print one line: the name of the winner and their score separated by a space.
 If the game is a draw, print Draw.
@@ -24,4 +26,5 @@ Sample Input
 BANANA
 Sample Output
 Stuart 12
+
 
